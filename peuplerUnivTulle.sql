@@ -1,19 +1,19 @@
 use univTulle ;
 
-insert into Etudiant(ine,nom,prenom) values("0000000001A","GENPRI","Erwan") ;
-insert into Etudiant(ine,nom,prenom) values("0000000002B","KEHRE","Armelle") ;
+insert into Etudiant(ine,nom,prenom) values("0000000001A","SINK","David") ;
+insert into Etudiant(ine,nom,prenom) values("0000000002B","BROWN","Lucie") ;
 
 insert into Module(idModule,libelle) values(1,"Mythologie Romaine") ;
 insert into Module(idModule,libelle) values(2,"Mythologie Grecque") ;
 insert into Module(idModule,libelle) values(3,"Droit Romain") ;
 
-insert into Evaluation(numEval,dateEval,duree,idModule) values(1,'2020-10-03',2,1) ;
-insert into Evaluation(numEval,dateEval,duree,idModule) values(2,'2020-10-28',3,2) ;
-insert into Evaluation(numEval,dateEval,duree,idModule) values(3,'2020-10-28',2,3) ;
-insert into Evaluation(numEval,dateEval,duree,idModule) values(4,'2020-11-08',4,1) ;
-insert into Evaluation(numEval,dateEval,duree,idModule) values(5,'2020-11-19',1,2) ;
-insert into Evaluation(numEval,dateEval,duree,idModule) values(6,'2020-12-14',2,3) ;
-insert into Evaluation(numEval,dateEval,duree,idModule) values(7,'2020-12-15',2,1) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(1,'2021-10-03',2,1) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(2,'2021-10-28',3,2) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(3,'2021-10-28',2,3) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(4,'2021-11-08',4,1) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(5,'2021-11-19',1,2) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(6,'2021-12-14',2,3) ;
+insert into Evaluation(numEval,dateEval,duree,idModule) values(7,'2021-12-15',2,1) ;
 insert into Evaluation(numEval,dateEval,duree,idModule) values(8,'2021-01-18',3,2) ;
 insert into Evaluation(numEval,dateEval,duree,idModule) values(9,'2021-01-20',2,1) ;
 
